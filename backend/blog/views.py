@@ -4,10 +4,10 @@ from django.views.generic import View
 from .models import Article
 # Create your views here.
 
-class articleList(ListView):
+# class articleList(ListView):
     
-    def get_queryset(self):
+#     def get_queryset(self):
         
-        return Article.objects.filter(status=True)
+#         return Article.objects.filter(status=True)
         
    
